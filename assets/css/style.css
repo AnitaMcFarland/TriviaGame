@@ -1,0 +1,28 @@
+body {
+
+    text-align: center;
+    font-size: 16px;
+    background-color: turquoise;
+    margin: 0 auto;
+    border: 10px;
+
+}
+
+#intro {
+    text-align: center;
+}
+#game {
+    text-align: center  bold;
+    
+
+}
+
+.start {
+    padding: 20px 15px;
+    background-color: rgb(241, 145, 0);
+    font-size: 22px;
+}
+
+.hidden {
+    display: none;
+}
