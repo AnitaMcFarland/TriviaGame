@@ -6,90 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
     <h1>Totally Trivial Trivia!</h1>
 
-  <div id="intro">
+
+    <div id="intro">
+
+        <p id="setInterval"></p>
         <button class="start">Get Started!</button>
 
-     <div id="game" class="hidden">
-        <p>Timer: <span id="timer">120</span></p>
-     </div>
+        <div id="game" class="hidden">
+            <p>Timer: <span id="timer">120</span></p>
+        </div>
     </div>
 
     <!--section game -->
-             <h1>Totally Trivial Trivia!</h1>
+    <h1>Totally Trivial Trivia!</h1>
 
     <div id="game"> -->
-        
-        </div>
-        <h2>
-            Time Remaining:
 
-        </h2>
-        <h3>
-            What percentage of our oxygen is produced by the ocean?
+    </div>
+    <p id="timer">Time Remaining:</p>
+    <h3>
+        What percentage of our oxygen is produced by the ocean?
 
-        </h3>
+    </h3>
 
-        <button class="answers">50%</button>
-        <button class="answers">60%</button>
-        <button class="answers">70%</button>
-        <button class="answers">80%</button>
+    <button class="answers">50%</button>
+    <button class="answers">60%</button>
+    <button class="answers">70%</button>
+    <button class="answers">80%</button>
 
-        <h3>
-            How much of the earth's surface does the Pacific ocean cover?
+    <h3>
+        How much of the earth's surface does the Pacific ocean cover?
 
-        </h3>
+    </h3>
 
-        <button class="answers">10%</button>
-        <button class="answers">20%</button>
-        <button class="answers">30%</button>
-        <button class="answers">40%</button>
+    <button class="answers">10%</button>
+    <button class="answers">20%</button>
+    <button class="answers">30%</button>
+    <button class="answers">40%</button>
 
-        <h3>
-            What does the deepest area of the ocean "Mariana Trench"measure?
+    <h3>
+        What does the deepest area of the ocean "Mariana Trench"measure?
 
-        </h3>
+    </h3>
 
-        <button class="answers">5km</button>
-        <button class="answers">7km</button>
-        <button class="answers">9km</button>
-        <button class="answers">11km</button>
+    <button class="answers">5km</button>
+    <button class="answers">7km</button>
+    <button class="answers">9km</button>
+    <button class="answers">11km</button>
 
-        <h3>
-            How much of the ocean's surface have we explored?
+    <h3>
+        How much of the ocean's surface have we explored?
 
-        </h3>
+    </h3>
 
-            <button class="answers">5%</button>
-            <button class="answers">10%</button>
-            <button class="answers">15%</button>
-            <button class="answers">20%</button>
+    <button class="answers">5%</button>
+    <button class="answers">10%</button>
+    <button class="answers">15%</button>
+    <button class="answers">20%</button>
 
-        <h3>
-                How big is the "Great Barrier" reef?
+    <h3>
+        How big is the "Great Barrier" reef?
 
-        </h3>
+    </h3>
 
-                <button class="answers">10km</button>
-                <button class="answers">260km</button>
-                <button class="answers">1600km</button>
-                <button class="answers">2600km</button>
+    <button class="answers">10km</button>
+    <button class="answers">260km</button>
+    <button class="answers">1600km</button>
+    <button class="answers">2600km</button>
 
-        <h3>
-                    How long is the largest underwater mountain range "Mid Oceanic Ridge"?
+    <h3>
+        How long is the largest underwater mountain range "Mid Oceanic Ridge"?
 
-        </h3>
+    </h3>
 
-                <button class="answers">1200km</button>
-                <button class="answers">6000km</button>
-                <button class="answers">9500km</button>
-                <button class="answers">56000km</button>
+    <button class="answers">1200km</button>
+    <button class="answers">6000km</button>
+    <button class="answers">9500km</button>
+    <button class="answers">56000km</button>
     </div>
 
 
@@ -98,13 +98,17 @@
 
     <!-- section end -->
     <div id="end">
+
         <h1>Totally Trivial Trivia!</h1>
-
-
         <h2>All Done!</h2>
 
+
         <div>
-            <h3>
+            <p id="correctAnswers">Correct Answers:</p>
+            <p id="incorrectAnswers">Incorrect Answers:</p>
+            <p id="unansweredQuestions">Unanswered Questions:</p>
+
+            <!-- <h3>
                 Correct Answers:
                 <span id="correct answers"></span>
             </h3>
@@ -115,20 +119,19 @@
             <h3>
                 Unanswered:
                 <span id="unanswered"></span>
-            </h3>
+            </h3> -->
 
         </div>
     </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-        <script src="apps.js"></script>
-        <script>
-$(document).read(function(){
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/apps.js"></script>
+    <script>
+        // $(document).read(function(){
 
-});
+        // });
+    </script>
 
-        </script>
-       
 </body>
 
 </html>

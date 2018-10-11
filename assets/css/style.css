@@ -1,5 +1,4 @@
 body {
-
     text-align: center;
     font-size: 16px;
     background-color: turquoise;
@@ -7,14 +6,20 @@ body {
     border: 10px;
 
 }
+#h1 {
+    text-decoration-style: italic;
+    font-size: 0px; 
+}
 
 #intro {
-    text-align: center;
+    text-align: bold;
 }
 #game {
-    text-align: center  bold;
+    text-align: bold;
     
-
+}
+#end { 
+    text-align: bold;
 }
 
 .start {

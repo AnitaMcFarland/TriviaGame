@@ -8,6 +8,8 @@ var answers = ["70%", "30%", "11km", "5%", "2600km", "56000km"]
 $("#correctAnswers").text(correctAnswers);
 $("#incorrectAnswers").text(incorrectAnswers);
 $("#unansweredQuestions").text(unansweredQuestions);
+$("#setInterval").text(setInterval);
+$("#timer").text(time);
 
 var time = 120;
 
